@@ -69,6 +69,7 @@ public class MainActivity extends BaseActivity {
         items.add(new Pair<String, Fragment>("OkDownload", new OkDownloadFragment()));
         items.add(new Pair<String, Fragment>("OkUpload", new OkUploadFragment()));
 
+        
         viewPager.setAdapter(new MainAdapter(getSupportFragmentManager()));
         tab.setupWithViewPager(viewPager);
     }
